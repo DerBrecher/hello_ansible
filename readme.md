@@ -1,0 +1,4 @@
+- Add fingerprint of hosts to known devices: `ssh` once
+- Copy private key to hosts: `ssh-copy-id -i ~/.ssh/KEY IP_ADDRESS`
+- Make sure hosts are in Ansible inventory: `cat /etc/ansible/hosts`
+- Execute Ansible: `ansible-playbook PLAYBOOK_FILE` optional `--check` for dry testing
